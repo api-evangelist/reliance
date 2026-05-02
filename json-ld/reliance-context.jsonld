@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "metals": "https://api-evangelist.github.io/reliance/vocab/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Organization": "schema:Organization",
+    "Product": "schema:Product",
+    "Service": "schema:Service",
+    "Place": "schema:Place",
+    "Order": "schema:Order",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "identifier": "schema:identifier",
+    "address": "schema:address",
+
+    "ServiceCenter": {
+      "@id": "metals:ServiceCenter",
+      "@type": "@id",
+      "comment": "A Reliance metals distribution and processing facility"
+    },
+    "BrandUnit": {
+      "@id": "metals:BrandUnit",
+      "@type": "@id",
+      "comment": "One of Reliance's 75+ independently operating subsidiary brands"
+    },
+    "MetalProduct": {
+      "@id": "metals:MetalProduct",
+      "@type": "@id",
+      "comment": "A metal product distributed by Reliance: plate, sheet, bar, coil, tube, structural"
+    },
+    "ProcessingService": {
+      "@id": "metals:ProcessingService",
+      "@type": "@id",
+      "comment": "A value-added metals processing service: cutting, shearing, sawing, leveling"
+    },
+    "MillCertificate": {
+      "@id": "metals:MillCertificate",
+      "@type": "@id",
+      "comment": "Quality certification document from originating steel or aluminum mill"
+    },
+    "metalType": {
+      "@id": "metals:metalType",
+      "@type": "xsd:string",
+      "comment": "The primary metal type: aluminum, carbon-steel, stainless-steel, titanium, copper, brass"
+    },
+    "alloyGrade": {
+      "@id": "metals:alloyGrade",
+      "@type": "xsd:string",
+      "comment": "The alloy grade or specification (e.g., 6061-T6, A36, 316L, Grade-5)"
+    },
+    "productForm": {
+      "@id": "metals:productForm",
+      "@type": "xsd:string",
+      "comment": "Physical form: plate, sheet, coil, bar, tube, pipe, structural, extrusion"
+    },
+    "thickness": {
+      "@id": "metals:thickness",
+      "@type": "xsd:decimal",
+      "comment": "Thickness in inches"
+    },
+    "width": {
+      "@id": "metals:width",
+      "@type": "xsd:decimal",
+      "comment": "Width in inches"
+    },
+    "length": {
+      "@id": "metals:length",
+      "@type": "xsd:decimal",
+      "comment": "Length in inches"
+    },
+    "weight": {
+      "@id": "metals:weight",
+      "@type": "xsd:decimal",
+      "comment": "Weight in pounds"
+    },
+    "heatNumber": {
+      "@id": "metals:heatNumber",
+      "@type": "xsd:string",
+      "comment": "Mill heat number for material traceability"
+    },
+    "astmSpecification": {
+      "@id": "metals:astmSpecification",
+      "@type": "xsd:string",
+      "comment": "ASTM standard specification number (e.g., ASTM A36, ASTM B209)"
+    },
+    "processingType": {
+      "@id": "metals:processingType",
+      "@type": "xsd:string",
+      "comment": "Value-added processing: cutting, shearing, sawing, leveling, blanking, stamping"
+    },
+    "endMarket": {
+      "@id": "metals:endMarket",
+      "@type": "xsd:string",
+      "comment": "Target industry: aerospace, automotive, defense, energy, construction, electronics, semiconductor"
+    },
+    "brandUnit": {
+      "@id": "metals:brandUnit",
+      "@type": "@id",
+      "comment": "The Reliance subsidiary brand fulfilling the order"
+    },
+    "serviceCenter": {
+      "@id": "metals:serviceCenter",
+      "@type": "@id",
+      "comment": "The service center location handling the order"
+    }
+  }
+}

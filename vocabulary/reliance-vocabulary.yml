@@ -1,0 +1,183 @@
+vocabulary:
+  provider: Reliance, Inc.
+  description: >-
+    Domain vocabulary for metals distribution, processing, and supply chain
+    management at Reliance, Inc. — North America's largest metals service center.
+  terms:
+    - term: Service Center
+      definition: >-
+        A metals distribution and processing facility that stocks, cuts, and
+        delivers metal products to end customers, adding value through
+        processing before sale.
+      tags:
+        - Distribution
+        - Operations
+
+    - term: Value-Added Processing
+      definition: >-
+        Metals processing services performed at the service center before
+        delivery, including cutting-to-length, shearing, blanking, sawing,
+        leveling, stamping, and custom fabrication.
+      tags:
+        - Processing
+        - Manufacturing
+
+    - term: Mill Certificate
+      definition: >-
+        A quality assurance document from the steel or aluminum mill certifying
+        that a product meets the specified chemical and mechanical properties
+        including heat number and test results.
+      tags:
+        - Quality
+        - Compliance
+
+    - term: Just-in-Time (JIT) Delivery
+      definition: >-
+        A supply chain model where materials are delivered to the customer
+        exactly when needed to minimize inventory carrying costs and material
+        waste on the production floor.
+      tags:
+        - Supply Chain
+        - Logistics
+
+    - term: Brand Operating Unit
+      definition: >-
+        One of Reliance's 75+ distinct subsidiary brands that operate
+        independently within the Reliance family, each serving specific
+        regional markets or metal product specialties.
+      tags:
+        - Operations
+        - Organization
+
+    - term: Carbon Steel
+      definition: >-
+        Steel with carbon as the primary alloying element. Carbon content
+        typically ranges from 0.04% to 2.1%, used widely in structural,
+        mechanical, and industrial applications.
+      tags:
+        - Metals
+        - Steel
+
+    - term: Stainless Steel
+      definition: >-
+        A steel alloy with a minimum of 10.5% chromium content providing
+        corrosion resistance, used in food processing, medical devices, and
+        chemical equipment applications.
+      tags:
+        - Metals
+        - Steel
+
+    - term: Aluminum
+      definition: >-
+        A lightweight, corrosion-resistant metal widely used in aerospace,
+        automotive, construction, and packaging applications. Common grades
+        include 2024, 6061, and 7075.
+      tags:
+        - Metals
+        - Aluminum
+
+    - term: Titanium
+      definition: >-
+        A strong, lightweight, corrosion-resistant metal used in aerospace,
+        medical implants, and defense applications. Alloys include Grade 5
+        (Ti-6Al-4V).
+      tags:
+        - Metals
+        - Specialty
+
+    - term: EDI (Electronic Data Interchange)
+      definition: >-
+        A standardized electronic format for exchanging business documents
+        such as purchase orders (850), order acknowledgments (855), advance
+        ship notices (856), and invoices (810) between trading partners.
+      tags:
+        - Integration
+        - Supply Chain
+
+    - term: Plate
+      definition: >-
+        A flat piece of metal with thickness typically greater than 3/16 inch
+        (4.8mm), used in structural, pressure vessel, and heavy industrial
+        applications.
+      tags:
+        - Products
+        - Metals
+
+    - term: Sheet
+      definition: >-
+        A flat piece of metal with thickness less than 3/16 inch (4.8mm),
+        used in automotive body panels, appliance housings, and construction.
+      tags:
+        - Products
+        - Metals
+
+    - term: Coil
+      definition: >-
+        A continuous strip of flat-rolled metal wound into a roll for
+        efficient transport and processing through slitting, leveling, or
+        blanking operations.
+      tags:
+        - Products
+        - Metals
+
+    - term: Bar Stock
+      definition: >-
+        A solid, elongated metal product with a uniform cross-section (round,
+        square, flat, hexagonal) used in machined parts, fasteners, and
+        structural applications.
+      tags:
+        - Products
+        - Metals
+
+    - term: Structural Shapes
+      definition: >-
+        Rolled steel sections with specific cross-sectional profiles — angles,
+        channels, I-beams, and wide flanges — used in building and
+        infrastructure construction.
+      tags:
+        - Products
+        - Steel
+
+    - term: Heat Number
+      definition: >-
+        A unique identifier assigned to a specific batch of metal produced in
+        a single melt. Used for material traceability back to the mill
+        certificate.
+      tags:
+        - Quality
+        - Traceability
+
+    - term: ASTM Standard
+      definition: >-
+        A specification from ASTM International (formerly the American Society
+        for Testing and Materials) defining the chemical composition, mechanical
+        properties, and testing requirements for a metal product.
+      tags:
+        - Standards
+        - Quality
+
+    - term: Tolling
+      definition: >-
+        A processing arrangement where a customer provides raw metal material
+        and pays only for the processing service, retaining ownership of the
+        base metal throughout.
+      tags:
+        - Services
+        - Processing
+
+    - term: Spot Purchase
+      definition: >-
+        A metals purchase made at current market prices for immediate delivery,
+        as opposed to a long-term contract with fixed pricing.
+      tags:
+        - Pricing
+        - Procurement
+
+    - term: End Market
+      definition: >-
+        The final industry sector that consumes the metal products: aerospace,
+        automotive, defense, energy, construction, electronics, semiconductor,
+        or general manufacturing.
+      tags:
+        - Markets
+        - Classification
